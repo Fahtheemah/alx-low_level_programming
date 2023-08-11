@@ -3,19 +3,17 @@
  * main - Entry point of the program
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
-	char C;
+	char alphabet = 'a';
 
-	C = 'a';
-	while (C <= 'z')
+	while (alphabet <= 'z')
 	{
-		if (C != 'q' && != 'e')
+		if (alphabet != 'q' && alphabet != 'e')
 		{
-			putchar(C);
+			putchar(alphabet);
 		}
-		C++;
+		alphabet++;
 	}
 	putchar('\n');
 	return (0);
