@@ -19,7 +19,7 @@ int main(void)
 		next = a + b;
 		a = b;
 		b = next;
-		printf("%lu", next);
+		printf("%lu", a);
 
 		if (i < 97)
 			printf(", ");
