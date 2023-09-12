@@ -10,9 +10,9 @@
 int _strlen(char *s)
 {
 	int i;
-		
+
 	i = 0;
-	
+
 	while (s[i] != '\0')
 	{
 		i++;
@@ -21,7 +21,7 @@ int _strlen(char *s)
 }
 
 /**
- * *_strcpy - copies the string pointed to by src 
+ * *_strcpy - copies the string pointed to by src
  * including the terminating null byte
  * @dest: pointer to the buffer in which we copy the string
  * @src: string to be copied
